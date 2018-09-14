@@ -25,9 +25,10 @@ import json
 #=================================================#
 #safety
 with open('naming base.json','r',encoding="utf8") as basefile:
-    Database = json.loads(basefile.read())
+    Database = json.loads(basefile.read())    
 print(Database)
 
+#=================================================#
 
 
 
