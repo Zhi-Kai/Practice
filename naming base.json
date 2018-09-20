@@ -1,24 +1,24 @@
 {
 
 		"Signal1" : {
-						"Function_group" : "I2C bus",
-						"head" : "I2C_",
-						"port" : [0,1,2,3,4,5,6,7,8,9,10],
-						"signal name" : ["SDA","SCL"]
+						"Function_group":"I2C bus",
+						"head":"I2C_",
+						"port":[0,1,2,3,4,5,6,7,8,9,10],
+						"signal name":["_SDA_","_SCL_"]
 					},
 		"Signal2" : {
-						"Function_group" : "I2C bus",
-						"head" : "I2C_",
-						"port" : [0,1,2,3,4,5,6,7,8,9,10],
-						"signal name" : ["SDA","SCL"],
-						"R or C" : "R"
+						"Function_group":"I2C bus",
+						"head":"I2C_",
+						"port":[0,1,2,3,4,5,6,7,8,9,10],
+						"signal name":["_SDA_","_SCL_"],
+						"R or C":"R"
 					},
 		"Signal3" : {
-						"Function_group" : "I2C bus",
-						"head" : "I2C_",
-						"port" : "",
-						"signal name" : ["SDA","SCL"],
-						"R or C" : "R"
+						"Function_group":"I2C bus",
+						"head":"I2C_",
+						"port":"",
+						"signal name":["_SDA_","_SCL_"],
+						"R or C":"R"
 					}
 	}
 	
