@@ -42,16 +42,21 @@ with codecs.open('naming base.json','r','utf8') as basefile2:
 # print(Database2["Signal1"])
 
 # get value from *.json file
-Databace2_1 = Database["Signal1"]
-print(Databace2_1["Function_group"])
+Database2_1 = Database["Signal1"]
+print(Database2_1["Function_group"])
 
 #set the port
 Using_port = int(input())
-Databace2_2 = Database["Signal3"]
-Databace2_2["port"] = Using_port
-print(Databace2_2)
+Database2_2 = Database["Signal3"]
+Database2_2["port"] = Using_port
+print(Database2_2)
+# for i in range(Database2_2(len)):
+#     print(Databace2_2[i],end='')
+#print(Database2_2["head"],Database2_2["port"],Database2_2["signal name"][1],Database2_2["R or C"])
 #=================================================#
-
+#a = Database2_2["head"],Database2_2["port"],Database2_2["signal name"][1],Database2_2["R or C"]
+b = '%s%d%s%s' % (Database2_2["head"],Database2_2["port"],Database2_2["signal name"][1],Database2_2["R or C"])
+print(b)
 
 
 
