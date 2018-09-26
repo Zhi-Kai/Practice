@@ -1,3 +1,4 @@
+#<<<<<<< HEAD
 # from tkinter import *
 
 # form = Tk()
@@ -38,3 +39,8 @@ listb2.pack()
 
 root.mainloop()                 # 进入消息循环
 
+#=======
+import tkinter as tk
+win=tk.Tk()
+win.mainloop()
+#>>>>>>> b9a7513f440c964dae4d8b9c73721516f5204517
